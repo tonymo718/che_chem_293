@@ -1,0 +1,18 @@
+What does the model achieve? 
+-This graph shows the linear relationship between the battery capacity and the charge cycles
+
+How should metrics be interpreted?
+-Slope is the relationship between the number of charge cycles and Capacity for the battery; R value is not as good as expected
+
+What are appropriate use cases?
+-As the charge cycles the battery increase, the capacity will get lower and lower.
+
+How is it implemented? *
+- Data were obtained by using the same battery, charged at the same rate, and time.
+
+What are caveats/biases/concerns to its usage?
+-The numbers can be changed easily trying to get a better fit and R-value.
+
+How to interpret this specific result and advising action/next steps? 
+-We can look at the x and y coordinates and see around which cycles that the battery capacity drops significantly and can set up experiments on improving the battery life/capacity.
+
